@@ -1,0 +1,351 @@
+@media only screen and (min-width: 1200px) {
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 168px;
+    .footer {
+      height: auto;
+      width: 1068px;
+      .footerRow {
+        display: flex;
+        flex-direction: row;
+        .footerColumn {
+          display: flex;
+          flex-direction: column;
+          margin-right: 83px;
+          .footerJadooName {
+            font-family: 'Poppins-Regular';
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 66px;
+            color: #181E4B;
+            letter-spacing: 0.02em;
+            margin-left: 1px;
+          }
+          .footerJadooTagline{
+            width: 207px;
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 124.5%;
+            color: #5E6282;
+            margin-top: 19px;
+            letter-spacing: 0.01em;
+          }
+          .footerHeader {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 124.5%;
+            color: #080809;
+            margin-bottom: 34px;
+            margin-top: 21px;
+          }
+          .footerContent {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 124.5%;
+            color: #5E6282;
+            margin-bottom: 13px;
+          }
+          
+
+        }
+        .footerColumnLinks {
+          margin-top: 11px;
+          margin-left: -4px;
+          .footerInstargamIcon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin: 10px 15px 10px 15px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+          .footerAppsHeader {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 124.5%;
+            letter-spacing: 0.005em;
+            color: #5E6282;
+            margin-left: 10px;
+            margin-top: 16px;
+          }
+          .footerGooglePlayImage {
+            margin-left: 8px;
+            margin-top: 15px;
+          }
+          .footerPlayStoreImage { 
+            margin-left: 7px;
+            margin-top: 15px;
+          }
+        }
+        .footerMiddleColumns {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+      .footerLastWrapper {
+        margin-top: 70px;
+        display: flex;
+        .footerLast {
+          text-align: center;
+          width: 100%;
+          font-family: 'Poppins-Regular';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 124.5%;
+          color: #5E6282;
+          letter-spacing: -0.01em;
+        }
+    }
+    }
+}
+}
+@media only screen and (max-width: 1199px) {
+  .footerWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 200px;
+      .footer {
+        height: auto;
+        width: 1098px;
+        .footerRow {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-left: 15px;
+          padding-right: 15px;
+          .footerColumn {
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+            .footerJadooName {
+              font-family: 'Poppins-Regular';
+              font-weight: 600;
+              font-size: 44px;
+              line-height: 66px;
+              color: #181E4B;
+            }
+            .footerJadooTagline{
+              width: 207px;
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 124.5%;
+              color: #5E6282;
+              margin-top: 19px;
+            }
+            .footerHeader {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 21px;
+              line-height: 124.5%;
+              color: #080809;
+              margin-bottom: 34px;
+              margin-top: 21px;
+            }
+            .footerContent {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 124.5%;
+              color: #5E6282;
+              margin-bottom: 13px;
+            }
+            
+  
+          }
+          .footerColumnLinks {
+            margin-top: 21px;
+            .footerInstargamIcon {
+              width: 41px;
+              height: 41px;
+              border-radius: 50%;
+              margin: 10px;
+              box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .footerAppsHeader {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 124.5%;
+              letter-spacing: 0.005em;
+              color: #5E6282;
+              margin-left: 10px;
+              margin-top: 16px;
+            }
+            .footerGooglePlayImage {
+              margin-left: 10px;
+              margin-top: 16px;
+            }
+            .footerPlayStoreImage { 
+              margin-left: 7px;
+              margin-top: 16px;
+            }
+            .footerRow {
+              display: flex;
+              flex-direction: row;
+              justify-content:start;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+          }
+          .footerMiddleColumns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 486px;
+          }
+        }
+        .footerLastWrapper {
+          margin-top: 84px;
+          display: flex;
+          .footerLast {
+            text-align: center;
+            width: 100%;
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 124.5%;
+            color: #5E6282;
+          }
+      }
+      }
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .footerWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      .footer {
+        height: auto;
+        width: 250px;
+        text-align: center;
+        .footerRow {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-left: auto;
+          margin-right: auto;
+          .footerColumn {
+            display: flex;
+            flex-direction: column;
+            margin-right: 0px;
+            .footerJadooName {
+              font-family: 'Poppins-Regular';
+              font-weight: 600;
+              font-size: 44px;
+              line-height: 66px;
+              color: #181E4B;
+            }
+            .footerJadooTagline{
+              width: 207px;
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 124.5%;
+              color: #5E6282;
+              margin-top: 19px;
+            }
+            .footerHeader {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 21px;
+              line-height: 124.5%;
+              color: #080809;
+              margin-bottom: 34px;
+              margin-top: 21px;
+            }
+            .footerContent {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 124.5%;
+              color: #5E6282;
+              margin-bottom: 13px;
+            }
+            
+  
+          }
+          .footerColumnLinks {
+            margin-top: 21px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            .footerInstargamIcon {
+              width: 41px;
+              height: 41px;
+              border-radius: 50%;
+              margin: 10px;
+              box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .footerAppsHeader {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 124.5%;
+              letter-spacing: 0.005em;
+              color: #5E6282;
+              margin-left: 0px;
+              margin-top: 16px;
+            }
+            .footerGooglePlayImage {
+              margin-left: 0px;
+              margin-top: 16px;
+            }
+            .footerPlayStoreImage { 
+              margin-left: 7px;
+              margin-top: 16px;
+            }
+            .footerRow {
+              display: flex;
+              flex-direction: row;
+              justify-content:start;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+          }
+          .footerMiddleColumns {
+            display: flex;
+            flex-direction: row;
+            margin-left: -60px;
+            max-width: 345px;
+          }
+        }
+        .footerLastWrapper {
+          margin-top: 84px;
+          display: flex;
+          .footerLast {
+            text-align: center;
+            width: 100%;
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 124.5%;
+            color: #5E6282;
+          }
+      }
+      }
+  }
+}

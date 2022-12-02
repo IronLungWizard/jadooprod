@@ -1,0 +1,136 @@
+@media only screen and (min-width: 1200px) { 
+.sponsorsPageWrapper {
+  margin-top: 110px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    .sponsorsPage {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 1200px;
+      height: auto;
+      padding-left: 30px;
+      padding-right: 32px;
+      .sponsorLogo {
+        width: 150px;
+        height: 86px;
+        background: #FFFFFF;
+        border-radius: 10px;
+      }
+      .sponsorLogoCenter {
+        width: 240px;
+        height: 86px;
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+        0px 20px 13px rgba(0, 0, 0, 0.01), 
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        border-radius: 10px;
+        .ExpediaLogo {
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) { 
+  .sponsorsPageWrapper {
+    margin-top: 90px;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      .sponsorsPage {
+        align-items: center;
+        justify-content: space-between;
+        min-width: 85%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        flex-flow: wrap;
+        .sponsorLogo {
+          width: 200px;
+          height: 86px;
+          background: #FFFFFF;
+          border-radius: 10px;
+        }
+        .sponsorLogoCenter {
+          width: 200px;
+          height: 86px;
+          background: #FFFFFF;
+          box-shadow: none;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 730px) { 
+    .sponsorsPageWrapper {
+        margin-top: 80px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        .sponsorsPage {
+          align-items: center;
+          justify-content: space-between;
+          min-width: 85%;
+          height: auto;
+          display: grid;
+          grid-template-columns: auto auto ;
+          flex-flow: wrap;
+          .sponsorLogo {
+            width: 200px;
+            height: 86px;
+            background: #FFFFFF;
+            border-radius: 10px;
+          }
+          .sponsorLogoCenter {
+            width: 200px;
+            height: 86px;
+            background: #FFFFFF;
+            box-shadow: none;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 530px) { 
+      .sponsorsPageWrapper {
+          margin-top: 70px;
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          .sponsorsPage {
+            align-items: center;
+            justify-content: space-between;
+            min-width: 85%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-flow: wrap;
+            .sponsorLogo {
+              width: 200px;
+              height: 86px;
+              background: #FFFFFF;
+              border-radius: 10px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+            }
+            .sponsorLogoCenter {
+              width: 200px;
+              height: 86px;
+              background: #FFFFFF;
+              box-shadow: none;
+              border-radius: 10px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+            }
+          }
+        }
+      }

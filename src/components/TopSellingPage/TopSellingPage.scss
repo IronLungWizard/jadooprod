@@ -1,0 +1,173 @@
+@media only screen and (min-width: 1200px) { 
+.topSellingPageWrapper {
+  height: auto;
+  margin-top: 162px;
+    .topSellingPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 50%;
+      height: auto;
+        .spanTopSelling {
+          color: #5E6282; 
+          font-size: 17.2px;
+          font-family: 'Poppins-Regular';
+          font-weight: 600;
+          margin-left: -74px;
+          letter-spacing: 0.04em;
+        }
+        .spanTopDestinations{
+          color: #14183E;
+          font-size: 50px;
+          font-style: normal;
+          font-family: 'Volkhov-Regular';
+          font-weight: 700;
+          margin-top: 21px;
+          margin-left: -47px;
+          letter-spacing: 0.009em;
+        }
+
+        .topSelling{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          min-width:  1088px;
+          padding-right: 25px;
+          margin-top: -2px;
+          margin-left: -4px;
+          .destinationsSpiralDecore {
+            position: absolute;
+            z-index: -1;
+            margin-left: 1030px;
+            margin-top: 225px;
+          }
+        }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) { 
+  .topSellingPageWrapper {
+    height: auto;
+    margin-top: 200px;
+    .topSellingPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 50%;
+      height: auto;
+        .spanTopSelling {
+          color: #5E6282; 
+          font-size: 18px;
+          font-family: 'Poppins-Regular';
+          font-weight: 600;
+        }
+        .spanTopDestinations{
+          color: #14183E;
+          font-size: 50px;
+          font-style: normal;
+          font-family: 'Volkhov-Regular';
+          font-weight: 700;
+        }
+
+        .topSelling{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 75%;
+          min-width: 855px;
+          padding-left: 25px;
+          padding-right: 25px;
+          .destinationsSpiralDecore {
+            position: absolute;
+            visibility: hidden;
+          }
+        }
+    }
+  }
+}
+@media only screen and (max-width: 1023px) { 
+  .topSellingPageWrapper {
+    height: auto;
+    margin-top: 80px;
+    .topSellingPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 50%;
+      height: auto;
+        .spanTopSelling {
+          color: #5E6282; 
+          font-size: 18px;
+          font-family: 'Poppins-Regular';
+          font-weight: 600;
+        }
+        .spanTopDestinations{
+          color: #14183E;
+          font-size: 50px;
+          font-style: normal;
+          font-family: 'Volkhov-Regular';
+          font-weight: 700;
+        }
+
+        .topSelling{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: auto;
+          min-width: auto;
+          padding-left: 25px;
+          padding-right: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          .destinationsSpiralDecore {
+            position: absolute;
+            visibility: hidden;
+          }
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) { 
+  .topSellingPageWrapper {
+    height: auto;
+    margin-top: 70px;
+    .topSellingPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 50%;
+      height: auto;
+        .spanTopSelling {
+          color: #5E6282; 
+          font-size: 18px;
+          font-family: 'Poppins-Regular';
+          font-weight: 600;
+        }
+        .spanTopDestinations{
+          color: #14183E;
+          font-size: 32px;
+          font-style: normal;
+          font-family: 'Volkhov-Regular';
+          font-weight: 700;
+          margin-top: 10px;
+        }
+
+        .topSelling{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: auto;
+          min-width: auto;
+          padding-left: 25px;
+          padding-right: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          .destinationsSpiralDecore {
+            position: absolute;
+            visibility: hidden;
+          }
+        }
+    }
+  }
+}

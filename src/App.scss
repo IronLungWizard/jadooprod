@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('Poppins-Bold'), url(./fonts/FontPoppins/Poppins-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url(./fonts/FontPoppins/Poppins-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Volkhov-Regular';
+  src: local('Volkhov-Regular'), url(./fonts/FontVolkhov/Volkhov-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: local('GoogleSans-Regular'), url(./fonts/FontGoogleSans/GoogleSans-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: local('OpenSans-Regular'), url(./fonts/FontOpenSans/OpenSans-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'), url(./fonts/FontMontserrat/Montserrat-Regular.woff) format('woff');
+}
+
+
+@media only screen and (min-width: 1024px) { 
+  .App {
+    background-image: url("../src/images/DecoreVector.svg");
+    background-repeat: no-repeat;
+    background-position: top 0px right -120px;
+
+    .appContainer {
+      display: block;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1023px) { 
+  .App {
+    background-image: url("../src/images/DecoreVector.svg");
+    background-repeat: no-repeat;
+    background-position: top 0px right -220px;
+    min-width: 375px;
+    .appContainer {
+      display: block;
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media only screen and (max-width: 530px) { 
+  .App {
+    background-image: url("../src/images/DecoreVector.svg");
+    background-repeat: no-repeat;
+    background-position: top 0px right -320px;
+    min-width: 375px;
+    .appContainer {
+      display: block;
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) { 
+  .App {
+    background-image: url("../src/images/DecoreVector.svg");
+    background-repeat: no-repeat;
+    background-position: top 0px right -400px;
+    min-width: 375px;
+    .appContainer {
+      display: block;
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  
+  nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+  margin: 0;
+}
+  

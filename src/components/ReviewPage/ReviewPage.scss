@@ -1,0 +1,960 @@
+@media only screen and (min-width: 1200px) { 
+.reviewPageWrapper {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 156px;
+    .reviewPage {
+      width: 1165px;
+      height: 380px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 50px;
+      padding-right: 15px;
+      .reviewPageLeft {
+        width: 530px;
+        margin-right: 81px;
+        .reviewPageLeftPreheader {
+          font-family: 'Poppins-Regular';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          text-transform: uppercase;
+          color: #5E6282;
+          margin-top: 9px;
+          letter-spacing: 0.03em;
+        }
+        .reviewPageLeftHeader {
+          font-family: 'Volkhov-Regular';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 50px;
+          line-height: 64px;
+          text-transform: capitalize;
+          color: #14183E;
+          margin-top: 8px;
+          letter-spacing: 0.01em;
+        }
+        .reviewPageLeftDotsWrapper {
+          margin-top: 82px;
+          display: flex;
+          flex-direction: row;
+          .reviewPageLeftDots{
+            width: 12px;
+            height: 12px;
+            background-color: #E5E5E5;
+            border-radius: 50%;
+            margin-right: 25px;
+          }
+        }
+      }
+      .reviewPageRight {
+        width: 669px;
+        .reviewPageRightPhoto {
+          margin-left: -36.5px;
+          margin-top: -0px;
+          border-radius: 50%;
+          position: absolute;
+        }
+        .reviewPageRightArrowUp {
+          margin-top: 142.25px;
+          margin-left: 570px;
+          position: absolute;
+        }
+        .reviewPageRightArrowDown {
+          margin-top: 213.75px;
+          margin-left: 570px;
+          position: absolute;
+        }
+        .reviewPageRightFirstCard {
+          width: 504px;
+          height: 279px;
+          background: #FFFFFF;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+          0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+          0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+          0px 20px 13px rgba(0, 0, 0, 0.01), 
+          0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+          0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          border-radius: 10px;
+          .reviewPageRightPhotoFirstTop {
+            position: absolute;
+            visibility: hidden;
+          }
+            .reviewPageRightFirstCardInfo {
+              margin-left: 34px;
+              display: flex;
+              flex-direction: column;
+              width: 400px;
+              .reviewPageRightFirstReviewName { 
+                font-family: 'Poppins-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: #5E6282;
+                margin-top: 34px;
+                margin-bottom: 5px;
+              }
+              .reviewPageRightFirstReviewInfo {
+                font-family: 'Poppins-Regular';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: #5E6282;
+                margin-bottom: 34px;                  
+              }
+              .reviewPageRightPhotoFirstBottom {
+                position: absolute;
+                visibility: hidden;
+              }
+          }
+          .reviewPageRightFirstCardText {
+            margin-top: 64px;
+            margin-left: 36px;
+            .reviewPageRightFirstReviewText {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 32px;
+              color: #5E6282;
+              width: 400px;
+            }
+          }
+        }
+        .reviewPageRightSecondCard {
+          position: absolute;
+          visibility: visible;
+          width: 502px;
+          height: 232px;
+          margin-left: 50px;
+          margin-top: -155px;
+          border: 2px solid #F7F7F7;
+          filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) 
+          drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+          drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+          drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+          drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+          drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+          border-radius: 10px;
+          z-index: -2;
+          .reviewPageRightPhotoSecondTop {
+            position: absolute;
+            visibility: hidden;
+          }
+            .reviewPageRightSecondCardInfo {
+              display: flex;
+              flex-direction: column;
+              margin-left: 34px;
+                .reviewPageRightSecondReviewName {
+                  margin-top: 156px;
+                  font-family: 'Poppins-Regular';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 27px;
+                  color: #5E6282;
+                  margin-bottom: 5px;
+                }
+                .reviewPageRightSecondReviewInfo {
+                  bottom: 0;
+                  margin-bottom: 20px;
+                  font-family: 'Poppins-Regular';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #5E6282;
+                }
+                .reviewPageRightPhotoSecondBottom {
+                  position: absolute;
+                  visibility: hidden;
+                }
+                
+            }
+            .reviewPageRightSecondCardText {
+              .reviewPageRightSecondReviewText {
+                visibility: hidden;
+                position: absolute;
+            }
+            }
+        }
+        .reviewPageRightThirdCard {
+          position: absolute;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) { 
+  .reviewPageWrapper {
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      margin-top: 200px;
+      height: 400px;
+      .reviewPage {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+        .reviewPageLeft {
+          width: 450px;
+          .reviewPageLeftPreheader {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            text-transform: uppercase;
+            color: #5E6282;
+            margin-top: 9px;
+          }
+          .reviewPageLeftHeader {
+            font-family: 'Volkhov-Regular';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 64px;
+            text-transform: capitalize;
+            color: #14183E;
+            margin-top: 8px;
+          }
+          .reviewPageLeftDotsWrapper {
+            margin-top: 82px;
+            display: flex;
+            flex-direction: row;
+            .reviewPageLeftDots{
+              width: 12px;
+              height: 12px;
+              background-color: #E5E5E5;
+              border-radius: 50%;
+              margin-right: 25px;
+            }
+          }
+        }
+        .reviewPageRight {
+          width: 550px;
+          .reviewPageRightPhoto {
+            margin-left: -37px;
+            border-radius: 50%;
+            position: absolute;
+          }
+          .reviewPageRightArrowUp {
+            margin-top: 0px;
+            margin-left: 0px;
+            position: absolute;
+            visibility: hidden;
+          }
+          .reviewPageRightArrowDown {
+            margin-top: 0px;
+            margin-left: 0px;
+            position: absolute;
+            visibility: hidden;
+          }
+          .reviewPageRightFirstCard {
+            width: 504px;
+            height: 279px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+            0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+            0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+            0px 20px 13px rgba(0, 0, 0, 0.01), 
+            0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+            0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+            border-radius: 10px;
+            .reviewPageRightPhotoFirstTop {
+              position: absolute;
+              visibility: hidden;
+            }
+              .reviewPageRightFirstCardInfo {
+                margin-left: 34px;
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                .reviewPageRightFirstReviewName { 
+                  font-family: 'Poppins-Regular';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 27px;
+                  color: #5E6282;
+                  margin-top: 34px;
+                  margin-bottom: 5px;
+                }
+                .reviewPageRightFirstReviewInfo {
+                  font-family: 'Poppins-Regular';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #5E6282;
+                  margin-bottom: 34px;                  
+                }
+                .reviewPageRightPhotoFirstBottom {
+                  position: absolute;
+                  visibility: hidden;
+                }
+            }
+            .reviewPageRightFirstCardText {
+              margin-top: 64px;
+              margin-left: 36px;
+              .reviewPageRightFirstReviewText {
+                font-family: 'Poppins-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 32px;
+                color: #5E6282;
+                width: 400px;
+              }
+            }
+          }
+          .reviewPageRightSecondCard {
+            position: absolute;
+            visibility: visible;
+            width: 502px;
+            height: 232px;
+            margin-left: 50px;
+            margin-top: -155px;
+            border: 2px solid #F7F7F7;
+            filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) 
+            drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+            drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+            drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+            drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+            drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+            border-radius: 10px;
+            z-index: -2;
+            .reviewPageRightPhotoSecondTop {
+              position: absolute;
+              visibility: hidden;
+            }
+              .reviewPageRightSecondCardInfo {
+                display: flex;
+                flex-direction: column;
+                margin-left: 34px;
+                  .reviewPageRightSecondReviewName {
+                    margin-top: 156px;
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #5E6282;
+                    margin-bottom: 5px;
+                  }
+                  .reviewPageRightSecondReviewInfo {
+                    bottom: 0;
+                    margin-bottom: 20px;
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #5E6282;
+                  }
+                  .reviewPageRightPhotoSecondBottom {
+                    position: absolute;
+                    visibility: hidden;
+                  }
+                  
+              }
+              .reviewPageRightSecondCardText {
+                .reviewPageRightSecondReviewText {
+                  visibility: hidden;
+                  position: absolute;
+              }
+              }
+          }
+          .reviewPageRightThirdCard {
+            position: absolute;
+            visibility: hidden;
+          }
+        }
+      }
+    }
+}
+  @media only screen and (max-width: 1023px) { 
+    .reviewPageWrapper {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 150px;
+        height: auto;
+        .reviewPage {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          padding-left: 15px;
+          padding-right: 15px;
+          align-items: center;
+          .reviewPageLeft {
+            width: 504px;
+            .reviewPageLeftPreheader {
+              font-family: 'Poppins-Regular';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 27px;
+              text-transform: uppercase;
+              color: #5E6282;
+              margin-top: 9px;
+            }
+            .reviewPageLeftHeader {
+              font-family: 'Volkhov-Regular';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 50px;
+              line-height: 64px;
+              text-transform: capitalize;
+              color: #14183E;
+              margin-top: 8px;
+            }
+            .reviewPageLeftDotsWrapper {
+              margin-top: 0px;
+              display: flex;
+              flex-direction: row;
+              .reviewPageLeftDots{
+                width: 0px;
+                height: 0px;
+                visibility: hidden;
+                position: absolute;
+              }
+            }
+          }
+          .reviewPageRight {
+            width: 504px; 
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            .reviewPageRightPhoto {
+              position: absolute;
+              visibility: hidden;
+            }
+            .reviewPageArrowUp {
+              margin-top: 0px;
+              margin-left: 0px;
+              position: absolute;
+              visibility: hidden;
+            }
+            .reviewPageArrowDown {
+              margin-top: 0px;
+              margin-left: 0px;
+              position: absolute;
+              visibility: hidden;
+            }
+            .reviewPageRightFirstCard {
+              width: 504px;
+              min-height: 245px;
+              height: auto;
+              background: #FFFFFF;
+              display: flex;
+              flex-direction: column;
+              margin-top: 50px;
+              justify-content: space-between;
+              box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.02), 
+              0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+              0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+              0px 20px 13px rgba(0, 0, 0, 0.01), 
+              0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+              0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+              border-radius: 10px;
+                .reviewPageRightPhotoFirstTop {
+                  position: absolute;
+                  visibility: visible;
+                  margin-top: -50px;
+                  margin-left: -30px;
+                  border-radius: 50%;
+                }
+                .reviewPageRightFirstCardInfo {
+                  margin-left: 34px;
+                  margin-top: 16px;
+                  display: flex;
+                  flex-direction: column;
+                  width: 400px;
+                  height: 121px;
+                  .reviewPageRightFirstReviewName { 
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #5E6282;
+                    margin-top: 34px;
+                    margin-bottom: 5px;
+                  }
+                  .reviewPageRightFirstReviewInfo {
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #5E6282;
+                    margin-bottom: 34px;
+                  }
+                  .reviewPageRightPhotoFirstBottom {
+                    position: absolute;
+                    visibility: hidden;
+                  }
+              }
+              .reviewPageRightFirstCardText {
+                margin-left: 34px;
+                margin-top: 0px;
+                .reviewPageRightFirstReviewText {
+                  font-family: 'Poppins-Regular';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 16px;
+                  line-height: 32px;
+                  color: #5E6282;
+                  width: 450px;
+                }
+              }
+            }
+            .reviewPageRightSecondCard {
+              width: 502px;
+              min-height: 245px;
+              height: auto;
+              margin-left: 0px;
+              background: #FFFFFF;
+              position: inherit;
+              margin-top: 120px;
+              border: 0px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              filter: drop-shadow(0px 10px 80px rgba(0, 0, 0, 0.02)) 
+              drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+              drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+              drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+              drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+              drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+              border-radius: 10px;
+              z-index: -2;
+              .reviewPageRightPhotoSecondTop {
+                position: absolute;
+                visibility: visible;
+                margin-top: -50px;
+                margin-left: -30px;
+                border-radius: 50%;
+              }
+              
+                .reviewPageRightSecondCardInfo {
+                  margin-left: 34px;
+                  margin-top: 16px;
+                  display: flex;
+                  flex-direction: column;
+                  width: 400px;
+                  height: 121px;
+                    .reviewPageRightSecondReviewName {
+                      margin-top: 34px;
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 27px;
+                      color: #5E6282;
+                      margin-bottom: 5px;
+                    }
+                    .reviewPageRightSecondReviewInfo {
+                      bottom: 0;
+                      margin-bottom: 20px;
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #5E6282;
+                    }
+                    .reviewPageRightPhotoSecondBottom {
+                      position: absolute;
+                      visibility: hidden;
+                    }
+                }
+                .reviewPageRightSecondCardText {
+                  margin-left: 34px;
+                  .reviewPageRightSecondReviewText {
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: #5E6282;
+                    visibility: visible;
+                    position: inherit;
+                  }
+                }
+            }
+            .reviewPageRightThirdCard {
+              width: 502px;
+              min-height: 245px;
+              height: auto;
+              margin-left: 0px;
+              background: #FFFFFF;
+              position: inherit;
+              margin-top: 120px;
+              border: 0px;
+              visibility: visible;
+              position: inherit;
+              filter: drop-shadow(0px 10px 80px rgba(0, 0, 0, 0.02)) 
+              drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+              drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+              drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+              drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+              drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+              border-radius: 10px;
+              z-index: -2;
+              .reviewPageRightPhotoThirdTop {
+                position: absolute;
+                visibility: visible;
+                margin-top: -50px;
+                margin-left: -30px;
+                border-radius: 50%;
+              }
+                .reviewPageRightThirdCardInfo {
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 34px;
+                    .reviewPageRightPhotoThirdBottom {
+                      position: absolute;
+                      visibility: hidden;
+                    }
+                    .reviewPageRightThirdReviewName {
+                      margin-top: 34px;
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 27px;
+                      color: #5E6282;
+                      margin-bottom: 5px;
+                    }
+                    .reviewPageRightThirdReviewInfo {
+                      bottom: 0;
+                      margin-bottom: 20px;
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #5E6282;
+                    }
+                    
+                }
+                .reviewPageRightThirdCardText { 
+                  margin-left: 34px;
+                  .reviewPageRightThirdReviewText {
+                    font-family: 'Poppins-Regular';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: #5E6282;
+                    visibility: visible;
+                    position: inherit;
+                  }
+                }
+            }
+          }
+        }
+      }
+}
+    @media only screen and (max-width: 580px) { 
+      .reviewPageWrapper {
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          margin-top: 70px;
+          height: auto;
+          .reviewPage {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+            padding-right: 15px;
+            align-items: center;
+            .reviewPageLeft {
+              width: 375px;
+              padding-left: 20px;
+              padding-right: 20px;
+              .reviewPageLeftPreheader {
+                font-family: 'Poppins-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                text-transform: uppercase;
+                color: #5E6282;
+                margin-top: 9px;
+              }
+              .reviewPageLeftHeader {
+                font-family: 'Volkhov-Regular';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 64px;
+                text-transform: capitalize;
+                color: #14183E;
+                margin-top: 8px;
+              }
+              .reviewPageLeftDotsWrapper {
+                display: flex;
+                flex-direction: row;
+                margin-top: 0px;
+                .reviewPageLeftDots{
+                  width: 0px;
+                  height: 0px;
+                  visibility: hidden;
+                  position: absolute;
+                }
+              }
+            }
+            .reviewPageRight {
+              width: 375px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin-top: 50px;
+              .reviewPageRightPhoto {
+                position: absolute;
+                visibility: hidden;
+              }
+              .reviewPageArrowUp {
+                margin-top: 0px;
+                margin-left: 0px;
+                position: absolute;
+                visibility: hidden;
+              }
+              .reviewPageArrowDown {
+                margin-top: 0px;
+                margin-left: 0px;
+                position: absolute;
+                visibility: hidden;
+              }
+              .reviewPageRightFirstCard {
+                width: 335px;
+                min-height: 265px;
+                height: auto;
+                background: #FFFFFF;
+                box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+                0px 20px 13px rgba(0, 0, 0, 0.01), 
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .reviewPageRightPhotoFirstTop {
+                  visibility: hidden;
+                  position: absolute;
+                }
+                  .reviewPageRightFirstCardText {
+                    margin-left: 16px;
+                    .reviewPageRightFirstReviewText {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 16px;
+                      line-height: 32px;
+                      color: #5E6282;
+                      width: 300px;
+                    }
+                  }
+                  .reviewPageRightFirstCardInfo {
+                    margin-left: 16px;
+                    margin-top: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 300px;
+                    justify-content: space-between;
+                    .reviewPageRightPhotoFirstBottom {
+                      position: inherit;
+                      visibility: visible;
+                      width: 68px;
+                      height: 68px;
+                      border-radius: 50%;
+                      margin-right: 16px;
+                      margin-top: 25px;
+                    }
+                    .reviewPageRightFirstReviewName { 
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 27px;
+                      color: #5E6282;
+                      margin-top: 34px;
+                      margin-bottom: 5px;
+                    }
+                    .reviewPageRightFirstReviewInfo {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #5E6282;
+                      margin-bottom: 34px;
+                    }
+                }
+              }
+              .reviewPageRightSecondCard {
+                width: 335px;
+                min-height: 265px;
+                height: auto;
+                background: #FFFFFF;
+                box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+                0px 20px 13px rgba(0, 0, 0, 0.01), 
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .reviewPageRightPhotoSecondTop {
+                  visibility: hidden;
+                  position: absolute;
+                }
+                  .reviewPageRightSecondCardText {
+                    margin-left: 16px;
+                    .reviewPageRightSecondReviewText {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 16px;
+                      line-height: 32px;
+                      color: #5E6282;
+                      width: 300px;
+                    }
+                  }
+                  .reviewPageRightSecondCardInfo {
+                    margin-left: 16px;
+                    margin-top: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 300px;
+                    justify-content: space-between;
+                    .reviewPageRightPhotoSecondBottom {
+                      position: inherit;
+                      visibility: visible;
+                      width: 68px;
+                      height: 68px;
+                      border-radius: 50%;
+                      margin-right: 16px;
+                      margin-top: 25px;
+                    }
+                    .reviewPageRightSecondReviewName { 
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 27px;
+                      color: #5E6282;
+                      margin-top: 34px;
+                      margin-bottom: 5px;
+                    }
+                    .reviewPageRightSecondReviewInfo {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #5E6282;
+                      margin-bottom: 34px;
+                    }
+                }
+              }
+              .reviewPageRightThirdCard {
+                width: 335px;
+                min-height: 265px;
+                height: auto;
+                background: #FFFFFF;
+                box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+                0px 20px 13px rgba(0, 0, 0, 0.01), 
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .reviewPageRightPhotoThirdTop {
+                  visibility: hidden;
+                  position: absolute;
+                }
+                  .reviewPageRightThirdCardText {
+                    margin-left: 16px;
+                    .reviewPageRightThirdReviewText {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 16px;
+                      line-height: 32px;
+                      color: #5E6282;
+                      width: 300px;
+                    }
+                  }
+                  .reviewPageRightThirdCardInfo {
+                    margin-left: 16px;
+                    margin-top: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 300px;
+                    justify-content: space-between;
+                    .reviewPageRightPhotoThirdBottom {
+                      position: inherit;
+                      visibility: visible;
+                      width: 68px;
+                      height: 68px;
+                      border-radius: 50%;
+                      margin-right: 16px;
+                      margin-top: 25px;
+                    }
+                    .reviewPageRightThirdReviewName { 
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 27px;
+                      color: #5E6282;
+                      margin-top: 34px;
+                      margin-bottom: 5px;
+                    }
+                    .reviewPageRightThirdReviewInfo {
+                      font-family: 'Poppins-Regular';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #5E6282;
+                      margin-bottom: 34px;
+                    }
+                }
+              }
+            }
+          }
+        }
+}

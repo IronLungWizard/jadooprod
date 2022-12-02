@@ -1,0 +1,531 @@
+@media only screen and (min-width: 1200px) { 
+.servicesPage {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../../src/images/CrossesVector.svg");
+    background-repeat: no-repeat;
+    background-position: right 30px top 0px;
+    margin-top: 137px;
+    .spanCategory {
+      color: #5E6282;
+      font-size: 18px;
+      font-family: 'Poppins-Regular';
+      font-weight: 600;
+      margin-bottom: 22px;
+      letter-spacing: 0.03em;
+      margin-left: -40px;
+    }
+    .spanWeOfferBestServices {
+      color: #14183E;
+      font-size: 50px;
+      font-style: normal;
+      font-family: 'Volkhov-Regular';
+      font-weight: 700;
+      margin-left: -40px;
+      letter-spacing: 0.0045em;
+    }
+    .services{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      min-width: 95%;
+      .services__calculatedWeather {
+        margin-left: 5px;
+        margin-top: 44px;
+        .spanServiceName {
+          margin-top: -4px;
+        }
+      }
+      .services__bestFlights {
+        margin-top: 75px;
+        margin-left: 73px;
+        .spanServiceName {
+          margin-top: 9px;
+          margin-left: -5px;
+        }
+      }
+      .services__localEvents {
+        margin-left: 84px;
+        .spanServiceName {
+          margin-top: -13px;
+          margin-left: -10px;
+        }
+        .spanServiceDescription {
+          width: 180px !important;
+          margin-left: -4px;
+        }
+      }
+      .services__customisation {
+        margin-left: 123px;
+        margin-top: 30px;
+        .spanServiceName {
+          margin-left: -15px;
+          margin-top: 4px;
+        }
+        .spanServiceDescription {
+          width: 190px !important;
+          margin-left: -6px;
+          letter-spacing: 0.03em !important;
+        }
+      }
+      DIV {
+        margin-top: 60px;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .weatherServiceVector {
+          height: 78px;
+          width: 92px;
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 33px;
+          padding-left: 5px;
+        }
+        .flightServiceVector {
+          margin-top: 39px;
+          height: 82px;
+          width: 116px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+          padding-right: 5px;
+        }
+        .eventsServiceVector {
+          margin-top: 12px;
+          width: 76px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 48px;
+          padding-left: 11px;
+        }
+        .customisationServiceVector {
+          margin-top: 55px;
+          width: 78px;
+          margin-left: 58px;
+          margin-right: auto;
+          margin-bottom: 25px;
+          
+        }
+        .serviceInfo {
+          display: flex;
+          flex-direction: column;
+          margin-top: 0px;
+          height: auto;
+          width: auto;
+          margin-left: auto;
+          margin-right: auto;
+          .spanServiceName {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #1E1D4C;
+            font-family: 'OpenSans-Regular';
+            letter-spacing: 0.02em;
+          }
+          .spanServiceDescription {
+            margin-top: 15px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #5E6282;
+            width: 170px;
+            font-family: 'Poppins-Regular';
+            letter-spacing: 0.02em;
+          }
+      }
+        .bestFlightRectangle {
+          position: absolute;
+          z-index: -1;
+          margin-top: 247px;
+          margin-left: -118px;
+        }
+      }
+      .services__calculatedWeather {
+        z-index: -2;
+      }
+      .services__bestFlights {
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        background: rgb(255, 255, 255);
+        height: 314px;
+        width: 267px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) { 
+  .servicesPage {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    .spanCategory {
+      color: #5E6282;
+      font-size: 18px;
+      font-family: 'Poppins-Regular';
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .spanWeOfferBestServices {
+      color: #14183E;
+      font-size: 50px;
+      font-style: normal;
+      font-family: 'Volkhov-Regular';
+      font-weight: 700;
+    }
+
+    .services{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 95%;
+      padding-left: 25px;
+      padding-right: 25px;
+      DIV {
+        margin-top: 68px;
+        height: 260px;
+        width: 220px;
+        background: rgb(255, 255, 255);
+        border-radius: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .weatherServiceVector {
+          height: 78px;
+          width: 92px;
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 24px;
+        }
+        .flightServiceVector {
+          margin-top: 30px;
+          height: 82px;
+          width: 116px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+        }
+        .eventsServiceVector {
+          margin-top: 30px;
+          width: 68px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 26px;
+        }
+        .customisationServiceVector {
+          margin-top: 30px;
+          width: 78px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 35px;
+        }
+        .serviceInfo {
+          display: flex;
+          flex-direction: column;
+          margin-top: 0px;
+          height: auto;
+          width: auto;
+          margin-left: auto;
+          margin-right: auto;
+          .spanServiceName {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #1E1D4C;
+            font-family: 'OpenSans-Regular';
+            margin-top: -5px;
+          }
+          .spanServiceDescription {
+            margin-top: 5px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: center;
+            color: #5E6282;
+            width: 170px;
+            font-family: 'OpenSans-Regular';
+          }
+      }
+        .bestFlightRectangle {
+          position: absolute;
+          z-index: -1;
+          margin-top: 190px;
+          margin-left: -90px;
+        }
+      }
+      .services__calculatedWeather {
+        z-index: -2;
+      }
+      .services__bestFlights {
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) { 
+  .servicesPage {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    .spanCategory {
+      color: #5E6282;
+      font-size: 18px;
+      font-family: 'Poppins-Regular';
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .spanWeOfferBestServices {
+      color: #14183E;
+      font-size: 44px;
+      font-style: normal;
+      font-family: 'Volkhov-Regular';
+      font-weight: 700;
+    }
+    .services{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 95%;
+      display: grid;
+      grid-template-columns: auto auto;
+      flex-flow: wrap;
+      margin-left: 10px;
+      margin-right: 10px;
+      DIV {
+        margin-top: 68px;
+        height: 260px;
+        width: 220px;
+        background: rgb(255, 255, 255);
+        border-radius: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .weatherServiceVector {
+          height: 78px;
+          width: 92px;
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 24px;
+        }
+        .flightServiceVector {
+          margin-top: 30px;
+          height: 82px;
+          width: 116px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+        }
+        .eventsServiceVector {
+          margin-top: 30px;
+          width: 68px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 26px;
+        }
+        .customisationServiceVector {
+          margin-top: 30px;
+          width: 78px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 35px;
+        }
+        .serviceInfo {
+          display: flex;
+          flex-direction: column;
+          margin-top: 0px;
+          height: auto;
+          width: auto;
+          margin-left: auto;
+          margin-right: auto;
+          .spanServiceName {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #1E1D4C;
+            font-family: 'OpenSans-Regular';
+            margin-top: -5px;
+          }
+          .spanServiceDescription {
+            margin-top: 5px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: center;
+            color: #5E6282;
+            width: 170px;
+            font-family: 'OpenSans-Regular';
+          }
+      }
+        .bestFlightRectangle {
+          position: absolute;
+          z-index: -1;
+          margin-top: 190px;
+          margin-left: -90px;
+          visibility: visible;
+        }
+      }
+      .services__calculatedWeather {
+        z-index: -2;
+      }
+      .services__bestFlights {
+        .services__bestFlights {
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+          0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 
+          0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) { 
+  .servicesPage {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 666px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 375px;
+    margin-top: 40px;
+    .spanCategory {
+      color: #5E6282;
+      font-size: 18px;
+      font-family: 'Poppins-Regular';
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .spanWeOfferBestServices {
+      color: #14183E;
+      font-size: 32px;
+      font-style: normal;
+      font-family: 'Volkhov-Regular';
+      font-weight: 700;
+    }
+    .services{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 100%;
+      display: flex;
+      padding-left: 15px;
+      padding-right: 15px;
+      DIV {
+        margin-top: 55px;
+        height: 150px;
+        width: 330px;
+        background: rgb(255, 255, 255);
+        border-radius: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .weatherServiceVector {
+          height: 78px;
+          width: 92px;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-left: 20px;
+          margin-right: 16.391px;
+        }
+        .flightServiceVector {
+          margin-top: auto;
+          margin-bottom: auto;
+          height: 69.7px;
+          width: 98.6px;
+          margin-left: 20px;
+        }
+        .eventsServiceVector {
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 68px;
+          margin-left: 30px;
+          margin-right: 30.391px;
+        }
+        .customisationServiceVector {
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 78px;
+          margin-left: 25px;
+          margin-right: 25.391px;
+        }
+        .serviceInfo {
+          display: flex;
+          flex-direction: column;
+          margin-top: 0px;
+          height: auto;
+          margin-right: auto;
+          width: 182px;
+          .spanServiceName {
+            position: inherit;
+            margin-top: 0px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: left;
+            color: #1E1D4C;
+            font-family: 'OpenSans-Regular';
+            margin-right: auto;
+          }
+          .spanServiceDescription {
+            position: inherit;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: left;
+            color: #5E6282;
+            margin-top: 15px;
+            width: 170px;
+            font-family: 'OpenSans-Regular';
+            margin-right: auto;
+          }
+        }
+        .bestFlightRectangle {
+          position: absolute;
+          z-index: -1;
+          margin-top: 250px;
+          margin-left: -20px;
+        }
+      }
+      .services__bestFlights {
+        .services__bestFlights {
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+          0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 
+          0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        }
+      }
+    }
+  }
+}

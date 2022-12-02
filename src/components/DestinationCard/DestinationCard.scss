@@ -1,0 +1,264 @@
+@media only screen and (min-width: 1200px) { 
+.destinationCard {
+    margin-top: 68px;
+    height: 457px;
+    width: 314px;
+    background: rgb(255, 255, 255);
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) 
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+
+    .destinationImage{
+      height: 457px;
+      width: 314px;
+      border-radius: 24px;
+    }
+    
+    .destinationDescription {
+      position: absolute;
+      background: rgb(255, 255, 255);
+      height: 131px;
+      width: 316px;
+      bottom: -1px;
+      left: -1px;
+      border-radius: 0 0 25px 25px;
+      flex-direction: row;
+      filter: none;
+
+      .spanDestinationName {
+        position: absolute;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 27px;
+        margin-left: 20px;
+        width: auto;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+        letter-spacing: 0.02em;
+      }
+      
+      .spanDestinationPrice {
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 28px;
+        width: auto;
+        right: 20px;
+        margin-right: 28px;
+        right: 0px;
+        left: auto;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+        letter-spacing: 0.02em;
+      }
+      .spanDestinationDuration {
+        position: absolute;
+        font-style: normal;
+        font-weight: 00;
+        font-size: 17px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 68px;
+        width: auto;
+        left: 55px;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+        letter-spacing: -0.02em;
+      }
+      .destinationsCardVector {
+        position: absolute;
+        margin-top: 69px;
+        left: 21px;
+      }
+    }
+    
+  } 
+}
+
+@media only screen and (max-width: 1199px) { 
+.destinationCard {
+  margin-top: 68px;
+  height: 365.6px;
+  width: 251.2px;
+  background: rgb(255, 255, 255);
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) 
+  drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+  drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+  drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+  drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+  drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+
+  .destinationImage{
+    height: 365.6px;
+    width: 251.2px;
+    border-radius: 24px;
+  }
+  
+  .destinationDescription {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    height: 105px;
+    width: 253.1px;
+    bottom: -1px;
+    left: -1px;
+    border-radius: 0 0 25px 25px;
+    flex-direction: row;
+    filter: none;
+
+    .spanDestinationName {
+      position: absolute;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 124.5%;
+      color: #5E6282;
+      margin-top: 27px;
+      margin-left: 20px;
+      width: auto;
+      height: 30px;
+      font-family: 'Poppins-Regular';
+    }
+    
+    .spanDestinationPrice {
+      position: absolute;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 124.5%;
+      color: #5E6282;
+      margin-top: 27px;
+      width: auto;
+      right: 20px;
+      margin-right: 20px;
+      right: 0px;
+      left: auto;
+      height: 30px;
+      font-family: 'Poppins-Regular';
+    }
+    .spanDestinationDuration {
+      position: absolute;
+      font-style: normal;
+      font-weight: 00;
+      font-size: 18px;
+      line-height: 124.5%;
+      color: #5E6282;
+      margin-top: 62px;
+      width: auto;
+      left: 52px;
+      height: 30px;
+      font-family: 'Poppins-Regular';
+    }
+    .destinationsCardVector {
+      position: absolute;
+      margin-top: 65px;
+      left: 20px;
+
+    }
+  }
+  
+} 
+}
+
+@media only screen and (max-width: 1023px) { 
+  .destinationCard {
+    margin-top: 40px;
+    height: 457px;
+    width: 314px;
+    background: rgb(255, 255, 255);
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) 
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) 
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) 
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) 
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) 
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+
+    .destinationImage{
+      height: 457px;
+      width: 314px;
+      border-radius: 24px;
+    }
+    
+    .destinationDescription {
+      position: absolute;
+      background: rgb(255, 255, 255);
+      height: 130px;
+      width: 316px;
+      bottom: 0px;
+      left: -1px;
+      border-radius: 0 0 25px 25px;
+      flex-direction: row;
+      filter: none;
+
+      .spanDestinationName {
+        position: absolute;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 27px;
+        margin-left: 20px;
+        width: auto;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+      }
+      
+      .spanDestinationPrice {
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 27px;
+        width: auto;
+        right: 20px;
+        margin-right: 20px;
+        right: 0px;
+        left: auto;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+      }
+      .spanDestinationDuration {
+        position: absolute;
+        font-style: normal;
+        font-weight: 00;
+        font-size: 18px;
+        line-height: 124.5%;
+        color: #5E6282;
+        margin-top: 62px;
+        width: auto;
+        left: 52px;
+        height: 30px;
+        font-family: 'Poppins-Regular';
+      }
+      .destinationsCardVector {
+        position: absolute;
+        margin-top: 65px;
+        left: 20px;
+
+      }
+    }
+    
+  } 
+  }
+
+  

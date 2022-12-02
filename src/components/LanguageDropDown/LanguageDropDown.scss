@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: local('GoogleSans-Regular'), url(../../fonts/FontGoogleSans/GoogleSans-Regular.woff) format('woff');
+}
+
+@media only screen and (min-width: 1024px) { 
+.dropDownButton {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'GoogleSans-Regular';
+    color: #212832;
+    white-space:nowrap;
+    z-index: 6;
+    margin-top: 3px;
+  }
+  
+  .dropDownList {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'GoogleSans-Regular';
+    font-size: 17px;
+    color: #212832;
+  }
+  
+  .dropDownList-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    max-width: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: 600;
+    font-family: 'GoogleSans-Regular';
+    font-size: 17px;
+    color: #212832;
+    margin-left: -15px;
+    margin-top: 25px
+  }
+  
+  .dropDownList-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropDownVector {
+    width: 11px;
+    height: 5px;
+    margin-left: 6px;
+    margin-top: 8px;
+  }
+  
+  .dropDownList-content li:hover {background-color: rgb(247, 245, 233);}
+  
+  .dropDownList:hover .dropDownList-content {display: block;}
+
+}
+
+@media only screen and (max-width: 1023px) { 
+  .dropDownButton {
+      border: none;
+      font-size: 17px;
+      font-weight: 600;
+      font-family: 'GoogleSans-Regular';
+      color: #212832;
+      white-space:nowrap;
+      z-index: 6;
+      margin-top: 3px;
+    }
+    
+    .dropDownList {
+      position: relative;
+      display: inline-block;
+      font-weight: 600;
+      font-family: 'GoogleSans-Regular';
+      font-size: 17px;
+      color: #212832;
+    }
+    
+    .dropDownList-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      max-width: 55px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-weight: 600;
+      font-family: 'GoogleSans-Regular';
+      font-size: 17px;
+      color: #212832;
+      margin-left: -15px;
+      margin-top: 10px
+    }
+    
+    .dropDownList-content li {
+      color: black;
+      padding: 8px 10px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropDownVector {
+      width: 11px;
+      height: 5px;
+      margin-left: 6px;
+      margin-top: 8px;
+    }
+    
+    .dropDownList-content li:hover {background-color: rgb(247, 245, 233);}
+    
+    .dropDownList:hover .dropDownList-content {display: block;}
+  
+  }
+    
+  
+
+  

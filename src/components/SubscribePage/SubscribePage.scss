@@ -1,0 +1,403 @@
+@media only screen and (min-width: 1200px) { 
+.subscribePageWrapper {
+    display: flex;
+    justify-content: center; 
+    background-image: url("../../../src/images/SubscribeCrossesVector.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px top 430px;
+    width: 100%;
+    margin-top: 160px;
+    .subscribePage {
+      height: auto;
+      min-width: 1200px;
+      padding-left: 15px;
+      .subscribeCardIcon {
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          margin-top: -12px;
+          margin-left: 1115px;
+          z-index: 1;
+        }    
+      .subscribeCard {
+        display: flex;
+        width: 1164px;
+        height: 407px;
+        border-radius: 20px 20px 20px 20px ;
+        background-image: url("../../../src/images/SubscribeCardVector.svg");
+        flex-direction: column;
+        opacity: 1;
+        z-index: 1;
+          .subscribeCardTitle {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 33px;
+            line-height: 54px;
+            text-align: center;
+            color: #5E6282;
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 81px;
+            letter-spacing: 0.007em;
+          }
+          .subscribeCardRow {
+            display: flex;
+            flex-direction: row;
+            margin-left: 252px;
+            margin-top: 74px;
+            .subscribeCardInsert {
+              width: 421px;
+              height: 68px;
+              background: #FFFFFF;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: row;
+                .subscribeCardMailIcon {
+                  width: 21px;
+                  height: 18px;
+                  margin-left: 31px;
+                  margin-top: 25px;
+                  opacity: 1;
+                }
+                .subscribeCardMailText {
+                  margin-left: 14px;
+                  margin-top: 25px;
+                  font-family: "Montserrat-Regular";
+                  margin-top: 27px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: #39425D;
+                }
+            }
+            .subscribeCardMailButton {
+              width: 180px;
+              height: 68px;
+              background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+              border-radius: 10px;
+              margin-left: 24px;
+              margin-top: -1px;
+              .subscribeCardMailButtonText {
+                font-family: 'OpenSans-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 23px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-top: -2px;
+              }
+            }
+          }
+          
+        }
+        
+      }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .subscribePageWrapper {
+    display: flex;
+    justify-content: center; 
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right 20px top 430px;
+    width: 100%;
+    margin-top: 200px;
+    .subscribePage {
+      height: auto;
+      min-width: 1024px;
+      padding-left: 35px;
+      padding-right: 35px;
+      .subscribeCardIcon {
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          margin-top: -10px;
+          margin-left: 850px;
+          z-index: 2;
+        }    
+      .subscribeCard {
+        display: flex;
+        width: 900px;
+        height: 407px;
+        border-radius: 20px 20px 20px 20px ;
+        background-image: url("../../../src/images/SubscribeCardVector.svg");
+        flex-direction: column;
+        opacity: 1;
+        z-index: 1;
+          .subscribeCardTitle {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 33px;
+            line-height: 54px;
+            text-align: center;
+            color: #5E6282;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 79px;
+          }
+          .subscribeCardRow {
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 64px;
+            .subscribeCardInsert {
+              width: 421px;
+              height: 68px;
+              background: #FFFFFF;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: row;
+                .subscribeCardMailIcon {
+                  width: 21px;
+                  height: 18px;
+                  margin-left: 31px;
+                  margin-top: 25px;
+                  opacity: 1;
+                }
+                .subscribeCardMailText {
+                  margin-left: 14px;
+                  margin-top: 25px;
+                  font-family: "Montserrat-Regular";
+                  margin-top: 27px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: #39425D;
+                }
+            }
+            .subscribeCardMailButton {
+              width: 180px;
+              height: 68px;
+              background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+              border-radius: 10px;
+              margin-left: 24px;
+              .subscribeCardMailButtonText {
+                font-family: 'OpenSans-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 23px;
+                text-align: center;
+                color: #FFFFFF;
+              }
+            }
+          }
+          
+        }
+        
+      }
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .subscribePageWrapper {
+    display: flex;
+    justify-content: center; 
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right 20px top 430px;
+    width: 100%;
+    margin-top: 90px;
+    .subscribePage {
+      height: auto;
+      min-width: 600px;
+      padding-left: 15px;
+      padding-right: 15px;
+      .subscribeCardIcon {
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          margin-top: -10px;
+          margin-left: 500px;
+          z-index: 2;
+        }    
+      .subscribeCard {
+        display: flex;
+        width: 550px;
+        height: 450px;
+        border-radius: 129px 20px 20px 20px ;
+        background-image: none;
+        background: #dfd7f931;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        z-index: 1;
+          .subscribeCardTitle {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 34px;
+            text-align: center;
+            color: #5E6282;
+            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 79px;
+          }
+          .subscribeCardRow {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 44px;
+            .subscribeCardInsert {
+              width: 400px;
+              height: 68px;
+              background: #FFFFFF;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: row;
+                .subscribeCardMailIcon {
+                  width: 21px;
+                  height: 18px;
+                  margin-left: 31px;
+                  margin-top: 25px;
+                  opacity: 1;
+                }
+                .subscribeCardMailText {
+                  margin-left: 14px;
+                  margin-top: 25px;
+                  font-family: "Montserrat-Regular";
+                  margin-top: 27px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: #39425D;
+                }
+            }
+            .subscribeCardMailButton {
+              width: 180px;
+              height: 68px;
+              background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+              border-radius: 10px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 30px;
+              .subscribeCardMailButtonText {
+                font-family: 'OpenSans-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 23px;
+                text-align: center;
+                color: #FFFFFF;
+              }
+            }
+          }
+          
+        }
+        
+      }
+  }
+}
+@media only screen and (max-width: 730px) {
+  .subscribePageWrapper {
+    display: flex;
+    justify-content: center; 
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right 20px top 430px;
+    width: 100%;
+    margin-top: 70px;
+    .subscribePage {
+      height: auto;
+      min-width: 375px;
+      padding-left: 15px;
+      padding-right: 15px;
+      .subscribeCardIcon {
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          margin-top: -10px;
+          margin-left: 0px;
+          z-index: 2;
+        }    
+      .subscribeCard {
+        display: flex;
+        width: 345px;
+        height: 520px;
+        border-radius: 129px 20px 20px 20px ;
+        background-image: none;
+        background: #dfd7f931;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        z-index: 1;
+          .subscribeCardTitle {
+            font-family: 'Poppins-Regular';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 34px;
+            text-align: center;
+            color: #5E6282;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 79px;
+          }
+          .subscribeCardRow {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 64px;
+            .subscribeCardInsert {
+              width: 280px;
+              height: 68px;
+              background: #FFFFFF;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: row;
+                .subscribeCardMailIcon {
+                  width: 21px;
+                  height: 18px;
+                  margin-left: 31px;
+                  margin-top: 25px;
+                  opacity: 1;
+                }
+                .subscribeCardMailText {
+                  margin-left: 14px;
+                  margin-top: 25px;
+                  font-family: "Montserrat-Regular";
+                  margin-top: 27px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: #39425D;
+                }
+            }
+            .subscribeCardMailButton {
+              width: 180px;
+              height: 68px;
+              background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+              border-radius: 10px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+              .subscribeCardMailButtonText {
+                font-family: 'OpenSans-Regular';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 23px;
+                text-align: center;
+                color: #FFFFFF;
+              }
+            }
+          }
+          
+        }
+        
+      }
+  }
+}
