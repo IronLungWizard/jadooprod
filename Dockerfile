@@ -1,9 +1,13 @@
-FROM node:16-alpine AS build
+FROM node:19-alpine AS build
 WORKDIR /app
 COPY package.json package.json
 RUN yarn install
+RUN echo $(ls -1 /app)
 COPY . .
+RUN echo $(ls -1 /app/node_modules)
+RUN echo $(ls -1 /app)
 RUN yarn build
+
 
 FROM nginx:1.19-alpine
 COPY --from=build /app/dist /opt/site/jadoo
