@@ -2,10 +2,7 @@ FROM node:19-alpine AS build
 WORKDIR /app
 COPY package.json package.json
 RUN yarn install
-RUN echo $(ls -1 /app)
 COPY . .
-RUN echo $(ls -1 /app/node_modules)
-RUN echo $(ls -1 /app)
 RUN yarn build
 
 
