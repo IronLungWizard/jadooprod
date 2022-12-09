@@ -6,12 +6,12 @@ const MobileMenu = () => {
  
   return (
 <div >
-  <div className="menuWrapper"></div>
+<div className="menuWrapper"></div>
     <div className="mobileMenu">     
             <img className="navBurger" src={NavBurger} alt=""/>
             <input className="dropDownCheckbox" type="checkbox"></input>
         <div className="mobileMenu-content">
-        <ul className="mobileMenu-innerWrapper">
+          <ul className="mobileMenu-innerWrapper">
             <li>Destination</li>
             <li>Hotels</li>
             <li>Flights</li>

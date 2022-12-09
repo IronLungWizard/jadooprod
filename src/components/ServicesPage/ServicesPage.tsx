@@ -4,7 +4,7 @@ import WeatherServiceVector from '../../../src/images/WeatherServiceVector.svg?u
 import FlightServiceVector from '../../../src/images/FlightServiceVector.svg?url'
 import BestFlightRectangle from '../../../src/images/BestFlightRectangle.svg?url'
 import EventsServiceVector from '../../../src/images/EventsServiceVector.svg?url'
-import CustomisationServiceVector from '../../../src/images/CustomisationServiceVector.svg?url'
+import CustomizationServiceVector from '../../../src/images/CustomizationServiceVector.svg?url'
 
 
 const ServicesPage = () => {
@@ -35,8 +35,8 @@ const ServicesPage = () => {
             <p className="spanServiceDescription">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
           </div>
         </div>
-        <div className="services__customisation">
-          <img className="customisationServiceVector" src={CustomisationServiceVector} alt=""/>
+        <div className="services__customization">
+          <img className="customizationServiceVector" src={CustomizationServiceVector} alt=""/>
           <div className="serviceInfo">
             <h3 className="spanServiceName">Customization</h3>
             <p className="spanServiceDescription">We deliver outsourced aviation services for military customers.</p>

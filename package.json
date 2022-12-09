@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "author": "",
   "scripts": {
-    "build": "cross-env TS_NODE_PROJECT=\"tsconfig.json\" webpack"
+    "build": "cross-env TS_NODE_PROJECT=\"tsconfig.json\" webpack",
+    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig.json\" webpack serve"
   },
   "devDependencies": {
     "@types/mini-css-extract-plugin": "^1.2.2",

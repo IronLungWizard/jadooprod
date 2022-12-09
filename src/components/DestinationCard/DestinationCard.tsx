@@ -1,6 +1,6 @@
 import React from 'react'
 import './DestinationCard.scss'
-import DestinationsCardVector from '../../../src/images/DestinationsCardVector.svg?url'
+import DestinationCardVector from '../../../src/images/DestinationCardVector.svg?url'
 
 type DestinationCardProps = {
     name: string | undefined,
@@ -17,7 +17,7 @@ const DestinationCard = (props: DestinationCardProps) => {
                 <div className="destinationDescription">
                     <p className="spanDestinationName">{props.name}</p>
                     <p className="spanDestinationPrice">{props.price}</p>
-                    <img className="destinationsCardVector" src={DestinationsCardVector} alt=""/>
+                    <img className="destinationCardVector" src={DestinationCardVector} alt=""/>
                     <p className="spanDestinationDuration">{props.duration}</p>
                 </div>
             </section>
